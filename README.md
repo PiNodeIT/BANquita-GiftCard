@@ -36,3 +36,7 @@ that's it, now inside the folder "GiftCard" you will find your giftcard
 ### Final comments
 
 I know the scrypt could be much more elegant and functional than this, unfortunately I'm not a programming expert, so **feel free to improve it**
+
+## What is BANANO?
+https://banano.cc/
+
