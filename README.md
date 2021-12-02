@@ -9,7 +9,7 @@ This scrypt **<u>does not generate</u>** wallet, but only the giftcard, this mea
 
 - Python 3.7+
 - qrcode lib
-- PIL lib
+- Pillow lib
 
 ### Installation
 
