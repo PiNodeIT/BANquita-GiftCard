@@ -57,3 +57,5 @@ I know the scrypt could be much more elegant and functional than this, unfortuna
 ## What is BANANO?
 https://banano.cc/
 
+### credits :
+the original image is by : https://banano.cc/paperwallet/
