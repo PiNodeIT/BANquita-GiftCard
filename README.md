@@ -17,7 +17,9 @@ install qrcode and PIL
 
 ```python
 pip install Pillow
-pip install qrcode
+```
+```python
+pip install QRcode
 ```
 
 ### Usage instructions 
