@@ -30,13 +30,10 @@ Seed generation and banquita-gift script execution can be performed <u>offline</
 
 ### Installation
 
-install qrcode and PIL
+install the requirements
 
-```python
-pip install Pillow
-```
-```python
-pip install QRcode
+```sh
+pip install -r requirements.txt
 ```
 
 ### Usage instructions 
