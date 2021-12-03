@@ -43,7 +43,7 @@ you will find 1 File (the Python script) and 2 Folders
 The folder "src" contains the base image 
 The folder "GiftCard" is where the giftcards in PNG format will be saved.
 
-Once you start the script it will ask you to enter the SEED and finally a name you want to give the file (without extension) 
+Once you start the script it will ask you to enter the SEED , the DEPOSIT address and finally a name you want to give the file (without extension) 
 
 that's it, now inside the folder "GiftCard" you will find 2 file :
   - (name)_GiftCard.png is the giftcard
