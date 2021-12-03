@@ -45,7 +45,9 @@ The folder "GiftCard" is where the giftcards in PNG format will be saved.
 
 Once you start the script it will ask you to enter the SEED and finally a name you want to give the file (without extension) 
 
-that's it, now inside the folder "GiftCard" you will find your giftcard 
+that's it, now inside the folder "GiftCard" you will find 2 file :
+  - (name)_GiftCard.png is the giftcard
+  - (name)_Deposit.png is the deposit address qrcode (to put some BAN in the giftcard)
 
 ### Final comments
 
