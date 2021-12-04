@@ -1,2 +1,5 @@
 Pillow
 QRcode
+Os
+Base64
+Phatlib
