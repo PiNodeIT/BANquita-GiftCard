@@ -1,3 +1,5 @@
+![alt text](http://pinode.altervista.org/static/img/bg.png)
+
 # BANquita Python GiftCard Generator
 
 This is a Python scrypt to generate banquita-themed BANANO giftcards 
