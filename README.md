@@ -25,9 +25,11 @@ Seed generation and banquita-gift script execution can be performed <u>offline</
 ### Requirements
 
 - Python 3.7+
-- qrcode lib
-- Pillow lib
-
+  - Qrcode lib
+  - os lib
+  - Base64 lib
+  - Image from Pillow lib
+  
 ### Installation
 
 install the requirements
@@ -39,13 +41,11 @@ pip install -r requirements.txt
 ### Usage instructions 
 
 Clone the repo or download it
-you will find 1 File (the Python script) and 2 Folders
-The folder "src" contains the base image 
-The folder "GiftCard" is where the giftcards in PNG format will be saved.
-
 Once you start the script it will ask you to enter the SEED , the DEPOSIT address and finally a name you want to give the file (without extension) 
+That's it.
+The resulting GiftCard are saved in the "GiftCard" folder (it wil be created if not exist in the same path of the script)  
 
-that's it, now inside the folder "GiftCard" you will find 2 file :
+Inside the "GiftCard" folder  you will find 2 file :
   - (name)_GiftCard.png is the giftcard
   - (name)_Deposit.png is the deposit address qrcode (to put some BAN in the giftcard)
 
