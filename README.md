@@ -1,4 +1,4 @@
-![alt text](http://pinode.altervista.org/static/img/bg.png)
+![alt text](https://github.com/PiNodeIT/BANquita-GiftCard/blob/main/src/bg.png)
 
 # BANquita Python GiftCard Generator
 
