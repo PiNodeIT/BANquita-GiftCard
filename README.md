@@ -9,17 +9,13 @@ This scrypt **<u>does not generate</u>** wallet, but only the giftcard, this mea
 
 ## How to generate a seed/address pair
 
-- Go to https://nanoo.tools/mass-seed-generator
+- Go to https://nanoo.tools/quick-banano-account
 
-- Change the address prefix to ban_
+- Click Random Seed
 
-- Set a number of wallets to 1
+Now you have the seed and the address.
 
-- Click on generate
-
-Now in the Generated csv box you will find your wallet in the format [*SEED*]**,**[*Public Address*].
-
-- The seed must be entered when prompted by the banquita-gift script
+- The seed must be entered when prompted by the banquita-gift script to put the seed into the GiftCard
 - The public address is the address to send the ban to load the giftcard
 
 Seed generation and banquita-gift script execution can be performed <u>offline</u> **<u>(for security reasons offline execution is strongly recommended)</u>**
