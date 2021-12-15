@@ -1,3 +1,12 @@
-Pillow
-QRcode
-Pathlib
+click==8.0.3
+ed25519-blake2b==1.4
+mypy-extensions==0.4.3
+nanolib==0.4.3
+pathlib==1.0.1
+pathspec==0.9.0
+Pillow==8.4.0
+platformdirs==2.4.0
+py-cpuinfo==8.0.0
+qrcode==7.3.1
+tomli==1.2.3
+typing-extensions==4.0.1
