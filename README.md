@@ -9,9 +9,6 @@
 
 This is a Python scrypt to generate banquita-themed BANANO giftcards 
 
-**ATTENTION**
-This scrypt **<u>does not generate</u>** wallet, but only the giftcard, this means that **YOU must have the seed** (there are many tools to create banano wallet, both random and vanity).
-
 ## How to generate a seed/address pair
 
   ### if you do not want the script to generate the seed/address pair:
