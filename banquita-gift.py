@@ -1,14 +1,33 @@
 # Python Script for generate BANquita-themed BANANO GiftCard
-# Version 0.2
+# Version 0.3
 # Author Monk3yBanano | BanaoPiNode
+# Special Tanks to : @Airtune @1joech @Eulentier
 
-# Import QR Code ad Pillow library
+# Import library
+import subprocess
+import sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", "qrcode"])
+subprocess.check_call([sys.executable, "-m", "pip", "install", "Pillow"])
+subprocess.check_call([sys.executable, "-m", "pip", "install", "Pathlib"])
 import qrcode
 from PIL import Image
 import os
 import base64
 from pathlib import Path
 
+auto = input("do you want the script generate seed/address pair for you? [y]es or [n]o: ")
+if auto == "y":
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "nanolib"])
+    from nanolib import generate_seed
+    from nanolib import generate_account_id
+    seed = generate_seed()
+    account_id = generate_account_id(seed, 0)
+    address = account_id.replace("xrb_", "ban_")
+    name = input("Save as (no extension) :\n")
+else:
+    seed = input("Insert Seed:\n")
+    address = input("Insert Deposit Address (must start in ban_ ):\n")
+    name = input("Save as (no extension) :\n")
 # Create qr code instance
 qr = qrcode.QRCode(
     version = 1,
@@ -17,13 +36,8 @@ qr = qrcode.QRCode(
     border = 1,
 )
 
-# The data that you want to store
-data = input("Insert Seed:\n")
-deposit = input("Insert Deposit Address (must start in ban_ ):\n")
-name = input("Save as (no extension) :\n")
-
 # Add data
-qr.add_data(data)
+qr.add_data(seed)
 qr.make(fit=True)
 
 # Create an image from the QR Code instance
@@ -66,7 +80,7 @@ qr = qrcode.QRCode(
 )
 
 # Add data deposit address
-qr.add_data(deposit)
+qr.add_data(address)
 qr.make(fit=True)
 
 # Create an image from the QR Code instance
@@ -75,3 +89,7 @@ dep_img = dep.resize((300,300))
 
 #Save Deposit QRcode
 dep_img.save("./GiftCard/"+(name)+"_DEPOSIT.png", quality=95)
+
+#Save a txt copy of seed/deposit address pair
+f = open("./GiftCard/"+(name)+".txt", 'a')
+f.write("seed: "+(seed)+", Deposit Address: "+(address)+("\n"))
