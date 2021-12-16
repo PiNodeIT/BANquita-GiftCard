@@ -11,10 +11,9 @@ This is a Python scrypt to generate banquita-themed BANANO giftcards
 
 ## How to generate a seed/address pair
 
-  ### if you do not want the script to generate the seed/address pair:
-    - Go to https://nanoo.tools/quick-banano-account
-
-    - Click Random Seed
+### if you do not want the script to generate the seed/address pair:
+- Go to https://nanoo.tools/quick-banano-account
+- Click Random Seed
 
 Now you have the seed and the address.
 
@@ -24,8 +23,8 @@ Now you have the seed and the address.
 
 Seed generation and banquita-gift script execution can be performed <u>offline</u> **<u>(for security reasons offline execution is strongly recommended)</u>**
 
-  ### if you are comfortable with letting the script generate the seed/address pair:
-    - select [Y] when prompted
+### if you are comfortable with letting the script generate the seed/address pair:
+- select [Y] when prompted
 
 ### Requirements
 
