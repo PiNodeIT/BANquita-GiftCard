@@ -23,11 +23,12 @@ if auto == "y":
     seed = generate_seed()
     account_id = generate_account_id(seed, 0)
     address = account_id.replace("xrb_", "ban_")
-    name = input("Save as (no extension) :\n")
 else:
     seed = input("Insert Seed:\n")
     address = input("Insert Deposit Address (must start in ban_ ):\n")
-    name = input("Save as (no extension) :\n")
+
+name = input("Save as (no extension) :\n")
+
 # Create qr code instance
 qr = qrcode.QRCode(
     version = 1,
